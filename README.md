@@ -47,5 +47,4 @@ Design Patterns used in the development of Software Architectures/Frameworks
     KnifeStore budgetKnifeStore = new BudgetKnifeStore();
     Knife budgetSharpKnife = budgetKnifeStore.orderKnife(KnifeType.BUDGET_SHARP_KNIFE); 
     ```
-    ![docs/images/Factory Method UML.png](Factory Method UML)
-  
+    ![alt text](https://github.com/AkshathSai/DesignPatternsInSoftwareArchitecture/blob/main/docs/images/Factory%20Method%20UML.png?raw=true)
