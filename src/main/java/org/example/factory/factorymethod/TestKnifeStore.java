@@ -7,7 +7,7 @@ public class TestKnifeStore {
 
     public static void main(String[] args) {
 
-        KnifeFactory knifeFactory =  new KnifeFactory();
+        KnifeFactory knifeFactory = new KnifeFactory();
         KnifeStore knifeStore = new KnifeStore(knifeFactory);
         Knife budgetKnife = knifeStore.orderKnife(KnifeType.BUDGET_KNIFE);
         log.info(budgetKnife.toString());
