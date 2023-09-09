@@ -7,6 +7,9 @@ Design Patterns used in the development of Software Architectures/Frameworks
   [Use Thread safe Singleton!]
 
 
+> **_GIST:_** Factories allow Client code to operate on generalizations
+
+
 - Factory Object
   - We can instantiate a Factory Object to create Product Objects
     ```java
