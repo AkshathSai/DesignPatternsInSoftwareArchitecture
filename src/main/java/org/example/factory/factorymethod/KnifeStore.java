@@ -17,7 +17,7 @@ public class KnifeStore {
         this.knifeFactory = new KnifeFactory();
     }*/
 
-    public void orderKnife(KnifeType knifeType) {
+    public Knife orderKnife(KnifeType knifeType) {
         log.info("Placed order for {} ", knifeType);
 
         Knife knife;
@@ -31,7 +31,7 @@ public class KnifeStore {
         knife.pack();
 
         // handover to buyer/consumer
-        log.info(knife.toString());
+        return knife;
     }
 
 }
