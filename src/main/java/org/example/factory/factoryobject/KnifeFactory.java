@@ -1,7 +1,6 @@
 package org.example.factory.factoryobject;
 
 import lombok.extern.slf4j.Slf4j;
-import org.example.factory.model.Knife;
 import org.example.factory.model.KnifeType;
 
 @Slf4j

@@ -1,4 +1,4 @@
-package org.example.factory.model;
+package org.example.factory.factoryobject;
 
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
