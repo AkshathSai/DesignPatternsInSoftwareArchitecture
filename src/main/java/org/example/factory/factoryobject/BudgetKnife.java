@@ -1,4 +1,6 @@
-package org.example.factory.factorymethod;
+package org.example.factory.factoryobject;
+
+import org.example.factory.model.Knife;
 
 public class BudgetKnife extends Knife {
 

@@ -1,20 +1,35 @@
 package org.example.factory.factorymethod;
 
 import lombok.extern.slf4j.Slf4j;
+import org.example.factory.model.Knife;
+import org.example.factory.model.KnifeType;
 
 @Slf4j
 public class TestKnifeStore {
 
     public static void main(String[] args) {
 
-        KnifeFactory knifeFactory = new KnifeFactory();
-        KnifeStore knifeStore = new KnifeStore(knifeFactory);
-        Knife budgetKnife = knifeStore.orderKnife(KnifeType.BUDGET_KNIFE);
-        log.info(budgetKnife.toString());
-        Knife chefsKnife = knifeStore.orderKnife(KnifeType.CHEFS_KNIFE);
-        log.info(chefsKnife.toString());
+        KnifeStore budgetKnifeStore = new BudgetKnifeStore();
 
-        /*KnifeStore knifeStore = new KnifeStore();
-        knifeStore.orderKnife();*/
+        Knife budgetSharpKnife = budgetKnifeStore.orderKnife(KnifeType.BUDGET_SHARP_KNIFE);
+        budgetSharpKnife.sharpen();
+        budgetSharpKnife.polish();
+        budgetSharpKnife.pack();
+        log.info(budgetSharpKnife.toString());
+
+        KnifeStore qualityKnifeStore = new QualityKnifeStore();
+
+        Knife qualityChefsKnife = qualityKnifeStore.orderKnife(KnifeType.QUALITY_CHEFS_KNIFE);
+        qualityChefsKnife.sharpen();
+        qualityChefsKnife.polish();
+        qualityChefsKnife.pack();
+        log.info(qualityChefsKnife.toString());
+
+        KnifeStore familyKnifeStore = new FamilyKnifeStore();
+        Knife regularKnife = familyKnifeStore.orderKnife(KnifeType.REGULAR_FAMILY_KNIFE);
+        regularKnife.sharpen();
+        regularKnife.polish();
+        regularKnife.pack();
+        log.info(regularKnife.toString());
     }
 }
