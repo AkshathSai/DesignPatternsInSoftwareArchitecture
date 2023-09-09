@@ -7,6 +7,8 @@ public class KnifeStore {
 
     private final KnifeFactory knifeFactory;
 
+    // require a KnifeFactory object to be passed to
+    // this constructor
     public KnifeStore(KnifeFactory knifeFactory) {
         this.knifeFactory = knifeFactory;
     }

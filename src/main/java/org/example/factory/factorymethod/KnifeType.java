@@ -1,6 +1,6 @@
 package org.example.factory.factorymethod;
 
-enum KnifeType {
+public enum KnifeType {
     BUDGET_KNIFE,
     CHEFS_KNIFE
 }
