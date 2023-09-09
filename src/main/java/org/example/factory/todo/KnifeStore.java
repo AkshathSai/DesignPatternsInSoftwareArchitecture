@@ -5,13 +5,15 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class KnifeStore {
 
-    KnifeFactory knifeFactory = new KnifeFactory();
+    final KnifeFactory knifeFactory;
 
     /*public KnifeStore(KnifeFactory knifeFactory) {
         this.knifeFactory = knifeFactory;
     }*/
 
-    public KnifeStore(){}
+    public KnifeStore() {
+        this.knifeFactory = new KnifeFactory();
+    }
 
     public void orderKnife() {
 
