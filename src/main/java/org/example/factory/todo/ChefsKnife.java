@@ -1,4 +1,4 @@
-package org.example.factorymethod.todo;
+package org.example.factory.todo;
 
 public class ChefsKnife extends Knife {
 

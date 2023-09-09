@@ -1,4 +1,4 @@
-package org.example.factorymethod.todo;
+package org.example.factory.todo;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -18,7 +18,7 @@ public class KnifeStore {
         Knife knife;
 
         //Get Knife from Factory
-        knife = knifeFactory.createKnife(ENUMS.BUDGET_KNIFE.toString());
+        knife = knifeFactory.createKnife(KnifeType.BUDGET_KNIFE);
 
         //pack it and handover to buyer/consumer
         log.info(knife.toString());
