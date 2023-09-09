@@ -1,4 +1,4 @@
-package org.example.factory.todo;
+package org.example.factory.factorymethod;
 
 enum KnifeType {
     BUDGET_KNIFE,

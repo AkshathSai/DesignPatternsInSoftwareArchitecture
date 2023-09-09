@@ -1,4 +1,4 @@
-package org.example.factory.todo;
+package org.example.factory.factorymethod;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -12,7 +12,7 @@ public class KnifeFactory {
         if (knifeType.equals(KnifeType.BUDGET_KNIFE)) {
             return new BudgetKnife("Awesome Budget Knife's ready!!");
         } else if (knifeType.equals(KnifeType.CHEFS_KNIFE)) {
-            return new ChefsKnife("Awesome Chef's Knife");
+            return new ChefsKnife("Awesome Chef's Knife's ready!!");
         } else {
             return null;
         }

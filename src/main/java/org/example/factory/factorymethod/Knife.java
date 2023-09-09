@@ -1,4 +1,4 @@
-package org.example.factory.todo;
+package org.example.factory.factorymethod;
 
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
@@ -11,15 +11,17 @@ public class Knife {
 
     public Knife(String name) {
         this.name = name;
-        sharpen();
-        polish();
     }
 
     public void sharpen() {
-        log.info("Sharpening Knife");
+        log.info("Sharpening Knife...");
     }
 
     public void polish() {
-        log.info("Applying Polish");
+        log.info("Applying Polish...");
+    }
+
+    public void pack() {
+        log.info("Packing final product...");
     }
 }
