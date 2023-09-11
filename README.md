@@ -63,3 +63,14 @@ Design Patterns used in the development of Software Architectures/Frameworks
         - Design the Interface
         - Implement the interface with one or more classes
         - Create the Facade class and wrap the classes that implement the interface 
+
+
+- Adapter Design Pattern
+  - The Adapter Design Pattern is a technique that helps bridge the gap between two incompatible interfaces 
+
+
+### Behavioural Design Patterns
+
+- Template Design Pattern
+  - The template method is useful when we have two classes have with similar functionality
+  - When you notice two classes with a very similar order of operations, you can choose to use a template method
