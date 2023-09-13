@@ -74,3 +74,11 @@ Design Patterns used in the development of Software Architectures/Frameworks
 - Template Design Pattern
   - The template method is useful when we have two classes have with similar functionality
   - When you notice two classes with a very similar order of operations, you can choose to use a template method
+
+## Java Specific Patterns
+
+- Retry Pattern
+
+### Credits
+
+- [Retry Pattern](https://medium.com/javarevisited/retry-pattern-fail-safe-strategy-2244f6bd247c)
