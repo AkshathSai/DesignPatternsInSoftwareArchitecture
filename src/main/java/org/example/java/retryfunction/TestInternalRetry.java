@@ -14,9 +14,9 @@ public class TestInternalRetry {
 
     public static void main(String[] args) {
 
-        RetryImpl retryImpl = new RetryImpl(5, 5000);
+        RetryService retryService = new RetryService(5, 5000);
 
-        retryImpl.retry(() -> sendRequest()); // Use VPN for positive case
+        retryService.retry(() -> sendRequest()); // Use VPN for positive case
 
     }
 

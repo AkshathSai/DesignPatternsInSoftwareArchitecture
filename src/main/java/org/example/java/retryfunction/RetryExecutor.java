@@ -1,7 +1,7 @@
 package org.example.java.retryfunction;
 
 @FunctionalInterface
-public interface RetryExecutorService {
+public interface RetryExecutor {
 
     void run() throws Exception;
 

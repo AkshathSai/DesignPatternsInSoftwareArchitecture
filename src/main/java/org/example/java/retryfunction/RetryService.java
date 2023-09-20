@@ -3,22 +3,22 @@ package org.example.java.retryfunction;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class RetryImpl {
+public class RetryService {
 
     int retryAttempts;
     final long timeToWait;
 
-    public RetryImpl(int retryAttempts, long timeToWait) {
+    public RetryService(int retryAttempts, long timeToWait) {
         this.retryAttempts = retryAttempts;
         this.timeToWait = timeToWait;
     }
 
-    public void retry(RetryExecutorService retryExecutorService) {
+    public void retry(RetryExecutor retryExecutor) {
 
         while (shouldRetry()) {
             try {
                 log.info("Retrying...");
-                retryExecutorService.run();
+                retryExecutor.run();
                 return; // if successful, exit method
             } catch (Exception e) {
                 retryAttempts--;
