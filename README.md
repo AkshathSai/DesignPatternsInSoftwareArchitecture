@@ -80,6 +80,15 @@ Design Patterns used in the development of Software Architectures/Frameworks
 
 -  
 
+
+### Design Principles underlying Design Patterns
+
+- Composing Objects Principle
+  - This principle states that classes should achieve code reuse through aggregation rather than inheritance in order to reduce tight coupling
+  - Uses Aggregation & Delegation to offer less coupling than inheritance
+  - Ex: Composite Design Pattern, Decorator Design Pattern
+  
+
 ## Java Specific Patterns
 
 - Retry Pattern
