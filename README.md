@@ -83,10 +83,19 @@ Design Patterns used in the development of Software Architectures/Frameworks
 
 ### Design Principles underlying Design Patterns
 
+- Liskov Substitution Principle [refer docs]
+
+
 - Composing Objects Principle
   - This principle states that classes should achieve code reuse through aggregation rather than inheritance in order to reduce tight coupling
   - Uses Aggregation & Delegation to offer less coupling than inheritance
   - Ex: Composite Design Pattern, Decorator Design Pattern
+
+
+- Interface Segregation Principle
+  - A class should not be forced to depend on methods it does not use
+  - Interfaces should be split up in such a way that it can properly describe the separate functionalities of your system
+  - Remember that Interfaces are just descriptions of what parts your system can do. And the better the description the easier it'll be to create, update & maintain your software
   
 
 ## Java Specific Patterns
