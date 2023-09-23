@@ -96,7 +96,11 @@ Design Patterns used in the development of Software Architectures/Frameworks
   - A class should not be forced to depend on methods it does not use
   - Interfaces should be split up in such a way that it can properly describe the separate functionalities of your system
   - Remember that Interfaces are just descriptions of what parts your system can do. And the better the description the easier it'll be to create, update & maintain your software
-  
+
+
+- Principle of Least Knowledge/Law of demeter
+  - Classes should know as little as possible about your system as a whole
+
 
 ## Java Specific Patterns
 
