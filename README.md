@@ -102,7 +102,7 @@ Design Patterns used in the development of Software Architectures/Frameworks
   - Classes should know as little as possible about your system as a whole
 
 
-## Java Specific Patterns
+## My Brainchild Java Specific Patterns
 
 - Retry Pattern
 
