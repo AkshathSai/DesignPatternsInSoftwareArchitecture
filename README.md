@@ -101,15 +101,14 @@ Design Patterns used in the development of Software Architectures/Frameworks
 - Principle of Least Knowledge/Law of demeter
   - Classes should know as little as possible about your system as a whole
 
-
 - DRY (Don't Repeat Yourself!)
 
 
-- 
 
-## Java Specific Patterns
+## My Brainchild Java Specific Patterns
 
 - Retry Pattern
+
 
 ### Credits
 
