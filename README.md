@@ -102,6 +102,11 @@ Design Patterns used in the development of Software Architectures/Frameworks
   - Classes should know as little as possible about your system as a whole
 
 
+- DRY (Don't Repeat Yourself!)
+
+
+- 
+
 ## Java Specific Patterns
 
 - Retry Pattern
